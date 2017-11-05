@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-condensed-regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-condensed-bold.woff) format('woff');
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;padding: 0;
+  background-image: url("https://i.pinimg.com/736x/60/1c/71/601c715eee01e1faeda7ecc9ecf1677c--blue-night-sky-stars-sky-night.jpg");
+
+}
+
+
+
+
+
+
+/*
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * BASIC
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+.hidden{
+  display: none !important;
+}
+
+
+
+
+/*
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * MIO
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+.mio-wrap .o{
+  position: absolute;
+  height: 400px;
+  border-radius: 15px;
+  background: #E9CC27;
+  cursor: pointer;
+  margin-left: 36%;
+  margin-top: 10%;
+
+}
+
+
+
+h1{
+  font-size: 8vh;
+  color: white;
+  font-style: "Times New Roman";
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.mio-wrap .o{
+  width: 400px;
+  border-radius: 50%;
+  -webkit-transition: background 1.8s;
+  -o-transition: background 1.8s;
+  transition: background 1.8s;
+}
+.mio-wrap .o:after{
+  content: '';
+  position: absolute;
+  top: 0;right: 0;bottom: 0;left: 0;
+  margin: auto;
+  background: inherit;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.mio-wrap .o .skill-orbit{
+  position: absolute;
+  top: 0;right: 0;bottom: 0;left: 0;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0,0,0);
+}
+.mio-wrap .o i{
+  display: block;
+  position: absolute;
+  top: -13px;
+  left: 0;right: 0;
+  margin: 0 auto;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 26px;
+  border-radius: 50%;
+  background: #000;
+}
+.mio-wrap .o .skill-orbit:nth-child(1){
+  width: 90%; height: 90%;
+}
+.mio-wrap .o .skill-orbit:nth-child(2){
+  width: 75%; height: 75%;
+}
+.mio-wrap .o .skill-orbit:nth-child(3){
+  width: 60%; height: 60%;
+}
+.mio-wrap .o .skill-orbit:nth-child(4){
+  width: 45%; height: 45%;
+}
+.mio-wrap .o .skill-orbit:nth-child(5){
+  width: 30%; height: 30%;
+}
+.mio-wrap .o .skill-orbit:nth-child(1) i{
+  color:#FFF9BF;
+  box-shadow: 0 0 0 2px #FFF9BF;
+  background: #A9925F;
+}
+.mio-wrap .o .skill-orbit:nth-child(2) i{
+  color:#A3B476;
+  box-shadow: 0 0 0 2px #A3B476;
+  background: #5F6151;
+}
+.mio-wrap .o .skill-orbit:nth-child(3) i{
+  color:#C77751;
+  font-size: 8px;
+  box-shadow: 0 0 0 2px #C77751;
+  background: #443F35;
+}
+.mio-wrap .o .skill-orbit:nth-child(4) i{
+  color:#FBAF3F;
+  box-shadow: 0 0 0 2px #FBAF3F;
+  background: #6E391E;
+}
+.mio-wrap .o .skill-orbit:nth-child(5) i{
+  color:#46BAEB;
+  box-shadow: 0 0 0 2px #46BAEB;
+  background: #0064B1;
+}
+.mio-wrap .o .skill-orbit:nth-child(1) i:after{ content: 'JS'; }
+.mio-wrap .o .skill-orbit:nth-child(2) i:after{ content: 'CSS'; }
+.mio-wrap .o .skill-orbit:nth-child(3) i:after{ content: 'HTML'; }
+.mio-wrap .o .skill-orbit:nth-child(4) i:after{ content: 'Ai'; }
+.mio-wrap .o .skill-orbit:nth-child(5) i:after{ content: 'Ps'; }
+.mio-wrap .o:hover{
+  background: transparent;
+  -webkit-transition: background .1s;
+  -o-transition: background .1s;
+  transition: background .1s;
+}
+.mio-wrap .o:hover:after{
+  width: 15%;
+  height: 15%;
+  background: #E9CC27;
+  -webkit-box-shadow: 0 0 19px #E9CC27;
+  box-shadow: 0 0 19px #E9CC27;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(1) i{
+    -webkit-animation: travelOrbit 10s infinite linear;
+    animation: travelOrbit 10s infinite linear;
+    -webkit-transform-origin: 50% 740%;
+    transform-origin: 50% 740%;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(1) i:after{
+    -webkit-animation: unrotate 10s infinite linear;
+    animation: unrotate 10s infinite linear;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(2) i{
+    -webkit-animation: travelOrbit 8s infinite linear;
+    animation: travelOrbit 8s infinite linear;
+    -webkit-transform-origin: 50% 626%;
+    transform-origin: 50% 626%;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(2) i:after{
+    -webkit-animation: unrotate 8s infinite linear;
+    animation: unrotate 8s infinite linear;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(3) i{
+    -webkit-animation: travelOrbit 6s infinite linear;
+    animation: travelOrbit 6s infinite linear;
+    -webkit-transform-origin: 50% 510%;
+    transform-origin: 50% 510%;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(3) i:after{
+    -webkit-animation: unrotate 6s infinite linear;
+    animation: unrotate 6s infinite linear;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(4) i{
+    -webkit-animation: travelOrbit 4s infinite linear;
+    animation: travelOrbit 4s infinite linear;
+    -webkit-transform-origin: 50% 395%;
+    transform-origin: 50% 395%;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(4) i:after{
+    -webkit-animation: unrotate 4s infinite linear;
+    animation: unrotate 4s infinite linear;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(5) i{
+    -webkit-animation: travelOrbit 2s infinite linear;
+    animation: travelOrbit 2s infinite linear;
+    -webkit-transform-origin: 50% 275%;
+    transform-origin: 50% 275%;
+}
+.mio-wrap .o:hover .skill-orbit:nth-child(5) i:after{
+    -webkit-animation: unrotate 2s infinite linear;
+    animation: unrotate 2s infinite linear;
+}
+
+@-webkit-keyframes travelOrbit {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes travelOrbit {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes unrotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes unrotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
+
+
+
+
