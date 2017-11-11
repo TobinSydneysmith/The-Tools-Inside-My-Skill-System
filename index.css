@@ -1,38 +1,10 @@
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-light.woff) format('woff');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-regular.woff) format('woff');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-bold.woff) format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-condensed-regular.woff) format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://532ecf1b0445a88674c8fb4753e5026ef0195dae-www.googledrive.com/host/0B2m-tKt8XpodR29yVjBVSVlxMTA/fonts/Roboto-condensed-bold.woff) format('woff');
-}
+
 html,body{
   width: 100%;
   height: 100%;
   margin: 0;padding: 0;
   background-image: url("https://i.pinimg.com/736x/60/1c/71/601c715eee01e1faeda7ecc9ecf1677c--blue-night-sky-stars-sky-night.jpg");
+  font-family: "Comic Sans MS"
 
 }
 
@@ -85,7 +57,7 @@ html,body{
 h1{
   font-size: 8vh;
   color: white;
-  font-style: "Times New Roman";
+  font-style: "Comic Sans MS";
   text-align: center;
   margin-top: 1vh;
 }
@@ -96,6 +68,7 @@ h1{
   -webkit-transition: background 1.8s;
   -o-transition: background 1.8s;
   transition: background 1.8s;
+
 }
 .mio-wrap .o:after{
   content: '';
